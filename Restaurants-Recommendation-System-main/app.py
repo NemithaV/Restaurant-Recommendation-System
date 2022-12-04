@@ -52,13 +52,16 @@ name_ = st.sidebar.selectbox(
 
 states = df[df['Name'] == name_]['state'].unique()
 state_ = st.sidebar.selectbox(
-    "State location", states
+    " state", states
 )
 
 cities = df[(df['Name'] == name_) & (df['state'] == state_)]['city'].unique()
 city_ = st.sidebar.selectbox(
-    "City location", cities
+    "City ", cities
+
+
 )
+
 
 about_df = df[(df['Name'] == name_) & (df['state'] == state_) & (df['city'] == city_)]
 about_name = about_df['Name'].values[0]
