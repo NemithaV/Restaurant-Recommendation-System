@@ -78,6 +78,7 @@ st.sidebar.markdown("CONTACT: " + about_contact + '. ')
 st.sidebar.markdown("TYPE: " + about_type + '. ')
 st.sidebar.markdown("COMMENT: " + str(about_comment) + '. ')
 
+
 if st.button('Show Recommendations'):
     df_recommend = recommend(name_, state_, city_)
     final_df = df_recommend[1:]
