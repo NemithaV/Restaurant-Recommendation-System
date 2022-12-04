@@ -42,7 +42,7 @@ def recommend(name, state, city):
 st.header('Restaurants Recommendation System ')
 
 st.image(
-            "https://media.timeout.com/images/105284814/750/422/image.jpg"
+            "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
         )
 st.markdown('<<< Use Side Bar')
 st.sidebar.header("Search")
@@ -70,6 +70,7 @@ about_type = about_df['Type'].values[0]
 about_review = str(about_df['Reviews'].values[0])
 about_comment = about_df['Comments'].values[0]
 about_contact = about_df['Contact Number'].values[0]
+about_Price_Range = about_df['Price_Range'].values[0]
 
 st.sidebar.image('https://1000logos.net/wp-content/uploads/2019/06/TripAdvisor-Logo.png',)
 
@@ -80,6 +81,7 @@ st.sidebar.markdown("REVIEW: " + about_review + '. ')
 st.sidebar.markdown("CONTACT: " + about_contact + '. ')
 st.sidebar.markdown("TYPE: " + about_type + '. ')
 st.sidebar.markdown("COMMENT: " + str(about_comment) + '. ')
+st.sidebar.markdown("PRICE_RANGE: " + str(about_Price_Range) + '. ')
 
 
 if st.button('Show Recommendations'):
@@ -121,7 +123,7 @@ if st.button('Show Recommendations'):
 
     # display table
     st.subheader("Top 10 Recommended Restaurants")
-    st.dataframe(data=final_df[['Name', 'Street Address', 'Location', 'Type', 'Contact Number', 'Reviews', 'Comments']])
+    st.dataframe(data=final_df[['Name', 'Street Address', 'Location', 'Type', 'Contact Number', 'Reviews', 'Comments', 'Price_Range']])
 
     # display map
     st.subheader('Map of Restaurants')
