@@ -10,7 +10,9 @@ TripAdvisor aim is to decrease the stress by giving restaurant suggestions along
 2.Data Cleaning
 
 3.Exploratory Data Analysis
+
 4.Feature Engineering
+
 5.Machine Modelling.
 
 # Dataset Description
