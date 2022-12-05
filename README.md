@@ -29,7 +29,7 @@ TripAdvisor aim is to decrease the stress by giving restaurant suggestions along
 Run app.py file using command
 # streamlit run app.py
 
-After redirecting to streamlit page select
+After redirecting to streamlit page select recommondation system
 # Recommandation System
 
 State and city are automatically generated when a restaurant is selected from drop down
