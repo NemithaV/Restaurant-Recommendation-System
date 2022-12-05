@@ -48,6 +48,7 @@ def recommend(name, state, city):
 # streamlit
 ##################################################################
 
+
 if home_menu == "Home":
     st.markdown("<h1 style = 'text-align : center;'>RESTAURANT RECOMMENDATION SYSTEM<h1>", unsafe_allow_html=True)
     st.image("home_page_image.jpg")
