@@ -14,7 +14,7 @@ TripAdvisor aim is to decrease the stress by giving restaurant suggestions along
 4.Jaswanth Tumati                    -801274978
 
 # From Terminal install modules using pip install command
-# streamlit 
+. streamlit 
 # Pandas 
 # numpy
 # folium
