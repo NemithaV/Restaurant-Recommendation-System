@@ -6,11 +6,14 @@ TripAdvisor aim is to decrease the stress by giving restaurant suggestions along
 
 # Team Members
 1.Nemitha Vudaru                     -801255073
+
 2.Preethi Nallamothu                 -801273372
+
 3.Aalugupalli Abhiram Reddy          -801268168
+
 4.Jaswanth Tumati                    -801274978
 
-From Terminal install modules using pip install command
+# From Terminal install modules using pip install command
 # streamlit 
 # Pandas 
 # numpy
