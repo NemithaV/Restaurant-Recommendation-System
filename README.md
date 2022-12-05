@@ -27,8 +27,8 @@ After redirecting to streamlit page select
 
 State and city are automatically generated when a restaurant is selected from drop down
 
-# show Recommandations 
-By choosing this option recommandations of near by restaurants are shown with price-range
+# Show Recommandations 
+By choosing this option Top 10 recommandations of near by restaurants are shown with price-range
 
 About Restaurant is also generated based on the choosen restaurant from drop down.
 
