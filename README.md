@@ -13,12 +13,12 @@ TripAdvisor aim is to decrease the stress by giving restaurant suggestions along
 
 4.Jaswanth Tumati                    -801274978
 
-# From Terminal install modules using pip install command
-. streamlit 
-# Pandas 
-# numpy
-# folium
-# streamlit_folium
+# From Terminal install modules 
+ pip install streamlit 
+ pip install Pandas 
+ pip install numpy
+ pip install folium
+ pip install streamlit_folium
 
 Using Commnad CD Move to  directory where App.py is present
 
