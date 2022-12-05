@@ -32,5 +32,8 @@ By choosing this option Top 10 recommandations of near by restaurants are shown 
 
 About Restaurant is also generated based on the choosen restaurant from drop down.
 
+# Visualization 
+Map of Restaurant appears with red icon shown its real time location and Blue icon on map indicates the recommanded near by reastaurants location.
+
 
 
