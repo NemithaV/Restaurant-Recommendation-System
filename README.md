@@ -5,8 +5,10 @@ Planning a trip is most complicated these days and also expensive. It's not easy
 TripAdvisor aim is to decrease the stress by giving restaurant suggestions along with menu and user reviews.
 
 # Restaurant Recommandations
-1.Retrieve Tripadvisory Data//
+1.Retrieve Tripadvisory Data
+
 2.Data Cleaning
+
 3.Exploratory Data Analysis
 4.Feature Engineering
 5.Machine Modelling.
