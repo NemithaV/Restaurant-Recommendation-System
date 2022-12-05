@@ -15,12 +15,16 @@ TripAdvisor aim is to decrease the stress by giving restaurant suggestions along
 
 # From Terminal install modules 
  pip install streamlit 
- pip install Pandas 
+ 
+ pip install Pandas
+ 
  pip install numpy
+ 
  pip install folium
+ 
  pip install streamlit_folium
 
-Using Commnad CD Move to  directory where App.py is present
+-> Using Commnad CD Move to  directory where App.py is present
 
 Run app.py file using command
 # streamlit run app.py
